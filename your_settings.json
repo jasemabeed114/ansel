@@ -1,0 +1,22 @@
+{
+    "token": "NTY0NzI3MDIxNDQ4NTkzNDA4.XKsFMg.Sne7fYRID-eXLObO8YfCEsc1InE",
+    "prefix": "/",
+    "rainbowdelay": 700,
+    "rainbowcommand": "tz",
+    "rainbowstop": "z",
+    "rainbowrole": [
+        "#9400D3",
+        "#4B0082",
+        "#0000FF",
+        "#00FF00",
+        "#FFFF00",
+        "#FF7F00",
+        "#FF0000"
+    ],
+    "messageresponse": {
+        "missingperm": "I need permission 'MANAGE_ROLES' to execute this action.",
+        "success": "rainbow Aktif",
+        "rainbowstop": "rainbow Off",
+        "rolenotfound": "Role Tidak Ditemukan"
+    }
+}
