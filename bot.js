@@ -11,7 +11,7 @@ require ("./command/avatar.js");
 ///require ("./command/daily.js");
 ///const help = require("./command/help.js");
 ///require("./command/commands.js");
-require ("./command/bot.js");
+///require ("./command/bot.js");
 ///require ("./command/music.js");
 const bot = new Discord.Client()
 bot.on('ready', async => {
@@ -25,11 +25,12 @@ setInterval(function() {
 		activNum = 1;
 	 } 
 	 if(activNum === 1) {
-		bot.user.setActivity("Digunakan 7 Server!",{type: "STREAMING"});
+		bot.user.setActivity("Digunakan 11 Server!",{type: "STREAMING"});
 		activNum = 2;
 		if(activNum === 2) {
-			bot.user.setActivity("Total 5864 Member!", {type: "WATCHING"});
-		}else return;
+			bot.user.setActivity("Total 586744 Member!", {type: "WATCHING"});
+		}else 
+			return;
 		activNum = 0;
 		
 		}
